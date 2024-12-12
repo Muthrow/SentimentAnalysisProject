@@ -1,5 +1,4 @@
 altair==5.2.0
-arcade==2.6.17
 asttokens==2.4.1
 attrs==22.1.0
 cffi==1.15.1
