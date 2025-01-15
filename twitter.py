@@ -33,7 +33,7 @@ if tweet not in st.session_state:
 # Streamlit app setup
 st.title("Twitter Analysis")
 st.write(DISCLAIMER)
-url_input = st.text_input("Enter Tweet URL here", height=50)
+url_input = st.text_input("Enter Tweet URL here")
 def retrieveV1(tweet_id):
         # tweet = client.get_tweet(tweet_id) 
         # tweet = tweet.data['text'] 
