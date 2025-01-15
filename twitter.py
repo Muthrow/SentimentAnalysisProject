@@ -1,4 +1,4 @@
-import torch
+# import torch
 from transformers import pipeline, AutoTokenizer
 import streamlit as st
 import tweepy
