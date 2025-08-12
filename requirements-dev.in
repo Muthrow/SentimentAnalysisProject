@@ -1,0 +1,13 @@
+# requirements-dev.in
+
+# Dependency Management
+pip-tools
+
+# Linter / Formatter (the modern all-in-one)
+ruff
+
+# Static Type Checking
+mypy
+
+# Testing Framework
+pytest
