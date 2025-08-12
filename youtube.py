@@ -7,12 +7,15 @@ import altair as alt
 import numpy as np
 
 
-API_KEY = st.secrets["API_KEY"]
+API_KEY = st.secrets["G_API_KEY"]
 MAX_TENSOR_LEN = 512
 MAX_COMMENTS = 100
 
 model = 'distilbert-base-uncased-finetuned-sst-2-english'
-sentiment_pipeline = pipeline("sentiment-analysis", model = model)
+sentiment_pipeline = pipeline(
+    "sentiment-analysis", 
+    model = model,
+    device_map="auto",)
 tokenizer = AutoTokenizer.from_pretrained(model)
 
 youtube = build('youtube', 'v3', developerKey=API_KEY)

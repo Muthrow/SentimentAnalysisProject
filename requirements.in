@@ -1,0 +1,21 @@
+# requirements.txt
+
+# Core App & Data
+streamlit
+pandas
+numpy
+
+# Machine Learning & AI
+transformers
+torch
+scikit-learn
+
+# Data Visualization
+altair
+
+# API Clients & Web Scraping
+google-api-python-client        # For Google APIs
+praw                            # For Reddit
+tweepy                          # For Twitter
+requests
+beautifulsoup4

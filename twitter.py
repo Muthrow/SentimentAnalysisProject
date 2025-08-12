@@ -7,7 +7,7 @@ import altair as alt
 import numpy as np
 import pandas as pd
 
-DISCLAIMER = 'Due to Twitter API limits, only a small amount of data is available for each tweet, will long wait times between analyses'
+DISCLAIMER = 'Due to Twitter API limits, only a small amount of data is available for each tweet, with long wait times between analyses'
 
 T_BEARER_TOKEN = st.secrets["T_BEARER_TOKEN"]
 T_ACCESS_TOKEN = st.secrets["T_ACCESS_TOKEN"]
